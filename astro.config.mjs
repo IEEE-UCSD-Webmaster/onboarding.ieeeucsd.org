@@ -8,7 +8,7 @@ export default defineConfig({
     integrations: [
         starlight({
             title: "IEEE@UCSD",
-
+            customCss: ["./src/tailwind.css"],
             social: {
                 github: "https://github.com/IEEE-UCSD-Webmaster/docs.ieeeucsd.org",
             },
