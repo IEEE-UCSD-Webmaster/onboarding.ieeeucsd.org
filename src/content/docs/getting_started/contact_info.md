@@ -2,7 +2,7 @@
 title: Contact Info
 sidebar:
     label: Contact Info
-    # order: 1
+    order: 1
     # badge:
     #     text: New
     #     variant: tip

@@ -2,7 +2,7 @@
 title: Open Access Hours
 sidebar:
     label: Open Access Hours
-    # order: 1
+    order: 4
     # badge:
     #     text: New
     #     variant: tip

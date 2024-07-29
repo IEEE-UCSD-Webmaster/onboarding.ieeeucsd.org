@@ -2,7 +2,7 @@
 title: Joining Slack
 sidebar:
     label: Joining Slack
-    # order: 1
+    order: 3
     # badge:
     #     text: New
     #     variant: tip

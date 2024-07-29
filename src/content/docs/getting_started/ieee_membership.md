@@ -2,7 +2,7 @@
 title: IEEE Membership
 sidebar:
     label: IEEE Membership
-    # order: 1
+    order: 2
     badge:
         text: Important!
         variant: note
