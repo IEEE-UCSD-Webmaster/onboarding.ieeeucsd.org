@@ -19,6 +19,12 @@ export default defineConfig({
                         directory: "getting_started",
                     },
                 },
+                {
+                    label: "Officers",
+                    autogenerate: {
+                        directory: "officers",
+                    },
+                },
             ],
         }),
         tailwind({ applyBaseStyles: false }),
