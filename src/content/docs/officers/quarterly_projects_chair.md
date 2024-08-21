@@ -21,7 +21,7 @@ You need to use the [events request form](https://forms.gle/7UemDex1LrkeaBeU8). 
 -   Qualcomm Conference Center
 
     -   Book this room for the fall
-    -   This is mean't for Kickoff, Workathon #1 & #2
+    -   This is meant for Kickoff, Workathon #1 & #2
     -   Click this [link](https://jacobsschoolucsd.libcal.com/reserve/qcc) to book.
 
 -   Henry Booker
