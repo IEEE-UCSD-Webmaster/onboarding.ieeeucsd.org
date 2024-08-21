@@ -8,9 +8,9 @@ export default defineConfig({
     integrations: [
         starlight({
             title: "IEEE@UCSD",
-            customCss: ["./src/tailwind.css"],
+            customCss: ["./src/tailwind.css", "./src/global.css"],
             social: {
-                github: "https://github.com/IEEE-UCSD-Webmaster/docs.ieeeucsd.org",
+                github: "https://github.com/IEEE-UCSD-Webmaster/onboarding.ieeeucsd.org",
             },
             sidebar: [
                 {
@@ -26,6 +26,16 @@ export default defineConfig({
                     },
                 },
             ],
+            expressiveCode: {
+                defaultProps: {
+                    // Enable word wrap by default
+                    wrap: true,
+                    // Disable wrapped line indentation for terminal languages
+                    overridesByLang: {
+                        "bash,ps,sh": { preserveIndent: false },
+                    },
+                },
+            },
         }),
         tailwind({ applyBaseStyles: false }),
     ],
